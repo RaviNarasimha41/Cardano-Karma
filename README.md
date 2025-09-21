@@ -1,51 +1,74 @@
-# IndiaCodex 2025
+# 🌟 Cardano Karma System
 
+**Gamified, on-chain community reputation system built on Cardano eUTXO.**  
+Users earn karma tokens for helpful actions, unlock NFT badges at milestones, and participate in community voting — all fully transparent & verified on-chain.
 
-Welcome to [**IndiaCodex'25 Hackathon**](https://www.indiacodex.com) powered by [**Nucast Labs**](https://nucast.io/)
-Please find attached the rules and steps to submit your project for the hackathon :
+✨ Hackathon-ready MVP with animated UI, responsive dashboards, and seamless wallet integration (Visper Wallet).
 
-## Step - 1: Fork the repository
+---
 
-Fork the given repository to your GitHub profile.
+## 🚀 Features
 
+### 🔹 Landing Page
+- **Hero Title:** “Earn Karma. Unlock NFTs. Impact Your Community.”
+- Animated gradient background + floating particles
+- Wallet connect (Visper Wallet via CIP-30)
+- 3D spinning karma token animation
+- Smooth scroll “Learn More” button
 
-## Step - 2: Create your folder
+### 🔹 User Dashboard
+- Wallet address + animated karma counter
+- Submit actions: Help, Donate, Participate
+- Confetti animation on successful action
+- Karma progress bar with glowing milestones
+- **NFT Badge Gallery**
+  - Displays user’s achievement NFTs (badges + external Cardano NFTs)
+  - Flip + scale hover animation
+  - Progress tracking towards next milestone
 
-After forking the repository, clone the repository to your pc/desktop, and then create a folder with your **TeamName** as the folder name.
+### 🔹 NFT Badge Gallery (Core Items Only)
+**Unlocked Badges**
+- 🥉 First Steps → First community action  
+- 🥈 Helper → Helped 10 members  
+- 💎 Generous Soul → Donated 1000 ADA  
+- ⭐ Community Leader → Led 5 initiatives  
+- 🔮 Karma Guardian → Consistent contributions  
 
-Unclear about cloning? No problem, we've got your back. Click [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to learn about it.
+**Locked Badges**
+- 👑 Karma Master → 3000 karma  
+- 🏆 Cardano Champion → 5000 karma  
 
-## Step - 3: Project Code Base
+---
 
-Push Your code base in this folder.
-This should include all your files for frontend as well as the backend
+### 🔹 Blockchain Integration
+- **Wallet Connect:** Visper Wallet (CIP-30 API)  
+- **Smart Contracts:** Aiken / OpShin (karma token minting + validation)  
+- **NFTs & Tokens:** MeshJS + Aiken  
+- **Voting:** Cardano Ballot (stake-based approvals)  
+- **Blockchain Data:** Blockfrost API (fetch balances, NFTs, transactions)  
+- **Testnet:** Preprod faucet ADA  
+- **Post-Vote Transaction Message:** Confirm voting actions via MeshJS transaction messages  
 
-## Step - 4: Team Info and Project Info
+---
 
-In your **TeamName** folder, make sure to include the below details in the README.md:
+## 🛠️ Tech Stack
 
-1. Your Project
-2. Your Project's Description
-3. What problem you are trying to solve
-4. Tech Stack used while building the project
-5. Project Demo Photos, Videos
-6. If your project is deployed, then include the Live Project Link
-7. Your PPT link (Make sure to upload the PPT in this folder along with the project)
-8. Your Team Members' Info.
+| Layer              | Tools / Frameworks                             |
+| ------------------ | --------------------------------------------- |
+| **Frontend**       | React.js (TypeScript) + TailwindCSS + Framer Motion |
+| **Backend**        | Node.js + Express                             |
+| **Wallet**         | Visper Wallet (CIP-30) + Lucid               |
+| **Smart Contracts**| Aiken / OpShin                                |
+| **NFTs & Tokens**  | MeshJS + Aiken                                |
+| **Voting**         | Cardano Ballot                                |
+| **Blockchain Data**| Blockfrost API                                |
+| **UI & Animation** | TailwindCSS, Framer Motion, 3D token spin, confetti, badge hover effects |
 
-## Step - 5: Submitting the code: Making a Pull request
+---
 
-After you have pushed your files and code base,
-[create an issue](https://github.com/IndiaCodex/IndiaCodex-2025/issues) in the main repository as:
-
-- Issue: Team Name: Submission
-- Issue description should include a small glimpse of your project, what is it doing, and how are you trying to achieve it.
-
-After the issue is assigned, make a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) from your forked repo to this repo's main branch while mentioning issue no. assigned to it.
-
-## Guides and Rules for submission:
-
-1. Make sure you fork the repository first, and create a folder with your team name.
-2. Make all your code added to your forked repo, and then push the code to your main branch after your project is complete.
-3. Make sure to push files to your folder only.
-4. Changing or doing any edits to other folders is strictly prohibited.
+## 💡 Notes
+- Ensure all transactions are verified on-chain for transparency.  
+- Confetti and animations enhance user engagement.  
+- NFT badges dynamically reflect community contributions.  
+- Post-vote confirmations via MeshJS messages improve accountability.  
+- Preprod ADA on Cardano testnet is sufficient for MVP testing.

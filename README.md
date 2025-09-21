@@ -5,6 +5,8 @@ Users earn karma tokens for helpful actions, unlock NFT badges at milestones, an
 
 ✨ Hackathon-ready MVP with animated UI, responsive dashboards, and seamless wallet integration (Visper Wallet).
 
+**project video link:https://drive.google.com/file/d/1r6CsjWZTT9dzcZMhnEErdMMnJkAa1t1n/view?usp=sharing**
+
 ---
 
 ## 🚀 Features
